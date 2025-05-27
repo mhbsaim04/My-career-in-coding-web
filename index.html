@@ -72,8 +72,8 @@
 
         .why-web-dev p {
             max-width: 600px;
-            text-align: justify;
             margin: 0 auto 30px;
+            text-align: justify;
             color: #555;
         }
 
@@ -92,6 +92,7 @@
 
         .web-dev-card img {
             width: 250px;
+            
         }
 
         .why-card-content {
@@ -114,7 +115,7 @@
         .inspiration p{
             text-align: center;
         }
-    
+
         .video-container {
             position: relative;
             width: 100%;
@@ -165,7 +166,8 @@
         }
 
         .intro h1 {
-            font-size: 26px;
+            font-size: 30px;
+            font-weight: bold;
             margin-bottom: 15px;
         }
         .targets {
@@ -206,6 +208,39 @@
         .card a:hover {
             text-decoration: underline;
         }
+        
+    .site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0f4ff;
+    width: 1182px;
+    padding: 15px 30px;
+    font-size: 14px;
+    
+}
+
+    .site-footer p {
+    margin: 0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+    .footer-icons a {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+    .footer-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+    .footer-icons a:hover img {
+    transform: scale(1.2);
+}
+
     </style>
 </head>
 <body>
@@ -214,13 +249,15 @@
         <div class="logo">
             Career<span>.io</span>
         </div>
-        <a href="https://drive.google.com/drive/u/0/folders/1W4aMI00ArHO4reOwhoYS-2SlRShc5osj" class="button" download>Download Resume</a>
+        <a href="https://drive.google.com/file/d/1e7BrtE3yz1W7TsPzmwa1K5QCcr8A3L0E/view?usp=sharing" class="button" download>Download Resume</a>
     </div>
     <br>
     <br>
     <section class="intro">
         <img src="Assets/hero-developer.png" alt="Developer Icon">
         <h1>"In 2025, I hope to become a Developer."</h1>
+        <p>I am committed to learning, practicing, and 
+           building projects that will help me grow into a skilled and confident developer.</p>
         <a href="https://bootcamp.programming-hero.com/" class="button">Let's Connect</a>
     </section>
 
@@ -234,7 +271,8 @@
             <img src="Assets/working-developer.png" alt="Coding Illustration">
             <div class="why-card-content">
                 <p> In sha Allah, I will pursue coding to make a positive impact on the world. 
-                    As a student of Geography and Environment at Pabna University of Science and Technology, I am developing coding skills with the goal of connecting technology and innovation in my field. 
+                    As a student of Geography and Environment at Pabna University of Science and Technology, 
+                    I am developing coding skills with the goal of connecting technology and innovation in my field. 
                     There are many exciting applications of coding in Geographic Information Systems (GIS) and Remote Sensing, and I am determined to contribute by creating new solutions and ideas in this space.</p>
                 <a href="https://community.esri.com/t5/education-blog/gis-coding-skills-and-strategies-for-university/ba-p/882989" 
                 class="button">Let's Discuss</a>
@@ -244,7 +282,7 @@
 
     <section class="inspiration">
         <h2>My Inspiration</h2>
-        <p>I was inspired to start coding by Omar Al Zabir vai and videos from the Programming Hero Community YouTube channel. </p>
+        <p>I have inspired in Coding from Omar Al Zabir vai and this Programming Hero Community's youtube channel Video. </p>
 
       <div id="video-box" class="video-container"><iframe width="700" height="450" 
         src="https://www.youtube.com/embed/Fowv2UMF2_s?si=x4mHJjfCFGhlNhny" 
@@ -275,29 +313,19 @@
             </div>
         </div>
     </section>
-
-<footer style="
-    background: #f0f4ff;
-    padding: 20px;
-    font-size: 14px;
-    color: #555;
-    border-top: 1px solid #ddd;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    ">
-
-    <p style="margin: 0%;">An Open Commitment by M.H.B. Saim</p>        &nbsp; &nbsp; &nbsp;                                           
+ <footer class="site-footer">
+    <strong><p>An Open Commitment by M.H.B. Saim</p></strong>                                              
+    <div class="footer-icons">
     <a href="https://www.facebook.com/mhb.saim.27" style="margin: 0 10px; color: #555; text-decoration: none; font-size: 20px;">
             <img src="Assets/facebook.png" alt="facebook logo">
         </a>
         <a href="https://github.com/mhbsaim04" style="margin: 0 10px; color: #555; text-decoration: none; font-size: 20px;">
             <img src="Assets/github.png" alt="github logo">
         </a>
-        <a href="www.linkedin.com/in/mazharul-hoq-bhuiyan-saim-32b420355" style="margin: 0 10px; color: #555; text-decoration: none; font-size: 20px;">
+        <a href="https://www.linkedin.com/in/mazharul-hoq-bhuiyan-saim-32b420355/" style="margin: 0 10px; color: #555; text-decoration: none; font-size: 20px;">
             <img src="Assets/linkedin.png" alt="linedin logo">
-        </a>
-</footer>  
+        </a> 
+    </div>
+ </footer>  
 </body>
 </html>
